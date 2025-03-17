@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+  <button class="theme-toggle" id="toggle-theme">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <main class="container">
+    <header class="header">
+      <h1>Calvin Lipanda</h1>
+      <p>Full Stack Developer</p>
+    </header>
+
+    <section class="profile">
+      <img src="download.jpg" alt="Profile Picture" class="profile-image" />
+      <p class="profile-bio">Passionate developer creating web solutions</p>
+    </section>
+
+    <section class="main-content">
+      <section class="skills">
+        <h2>Skills</h2>
+        <ul class="skills-grid">
+         
+            <article class="skill-card">
+              <i class="fab fa-html5"></i>
+              <h3>HTML5</h3>
+            </article>
+          
+      
+            <article class="skill-card">
+              <i class="fab fa-css3-alt"></i>
+              <h3>CSS</h3>
+            </article>
+        
+            <article class="skill-card">
+              <i class="fab fa-js"></i>
+              <h3>JavaScript</h3>
+            </article>
+      
+        </ul>
+      </section>
+
+      <section class="projects">
+        <h2>Projects</h2>
+        <ul class="projects-list">
+         
+            <article class="project-card">
+              <h3>E-Commerce Platform</h3>
+              <p>Full-stack shopping solution</p>
+            </article>
+         
+      
+            <article class="project-card">
+              <h3>Portfolio CMS</h3>
+              <p>Custom content management system</p>
+            </article>
+     
+        </ul>
+      </section>
+
+      <section class="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+         
+            <label for="email">Email</label>
+            <input type="email" id="email" class="form-input" required />
+         
+            <label for="message">Message</label>
+            <textarea id="message" class="form-input" rows="5" required></textarea>
+       
+          <button type="submit" class="submit-button">Send Message</button>
+        </form>
+      </section>
+    </section>
+
+    <footer class="site-footer">
+      <section class="footer-content">
+        <p>&copy; 2025 Calvin Lipanda. All rights reserved.</p>
+        <nav class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+        </nav>
+      </section>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
